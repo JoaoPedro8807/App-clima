@@ -1,0 +1,16 @@
+.nav-link{
+    padding: 30px;
+    color: white;
+    font-weight: 400;
+    font-size: 1.3em;
+    width: 100%;
+}
+
+@media(max-width: 768px) {
+    .nav-link{
+        padding: 0px;
+        padding-bottom: 20px;
+        align-items: center;
+        text-align: center;
+    } 
+}

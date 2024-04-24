@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/react/css/main.25b14c18.css",
+    "main.js": "/static/react/js/main.7e4f400a.js",
+    "js/453.a4f47222.chunk.js": "/static/react/js/453.a4f47222.chunk.js",
+    "media/fontawesome-webfont.svg?v=4.7.0": "/static/react/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "media/logo4.jfif": "/static/react/media/logo4.278b62774b00c8098a6c.jfif",
+    "media/fontawesome-webfont.eot": "/static/react/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "media/fontawesome-webfont.ttf?v=4.7.0": "/static/react/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "media/fontawesome-webfont.woff?v=4.7.0": "/static/react/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "media/fontawesome-webfont.woff2?v=4.7.0": "/static/react/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "media/bg-noite-3.jpg": "/static/react/media/bg-noite-3.a2595591a40f94beefe0.jpg",
+    "media/bg-tarde-2.jpg": "/static/react/media/bg-tarde-2.f6d03461d1db902dedba.jpg",
+    "media/bg-dia-5.jpg": "/static/react/media/bg-dia-5.acc27b26d3ceec36c5e2.jpg",
+    "../../templates/index.html": "/static/react/../../templates/index.html",
+    "main.25b14c18.css.map": "/static/react/css/main.25b14c18.css.map",
+    "main.7e4f400a.js.map": "/static/react/js/main.7e4f400a.js.map",
+    "453.a4f47222.chunk.js.map": "/static/react/js/453.a4f47222.chunk.js.map"
+  },
+  "entrypoints": [
+    "css/main.25b14c18.css",
+    "js/main.7e4f400a.js"
+  ]
+}

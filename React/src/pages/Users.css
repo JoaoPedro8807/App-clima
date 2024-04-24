@@ -1,0 +1,187 @@
+.users-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.table-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    min-height: 50dvh;
+    align-items: center;
+    overflow-x: auto;
+}
+.table-responsive{
+    overflow-x: auto;
+}
+
+.table-users, .table-responsive{
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+
+}
+
+
+/*Container edit user (my offcanvas) */
+
+.edit-user-main{
+    width: 70vw;
+    height: 50dvh;
+    background-color: transparent;
+}
+.edit-user-container{
+    background: linear-gradient(to bottom, var(--color-3), var(--color-1),  var(--color-3));
+    color: white;
+    height: 50%;
+    position: fixed;
+    transform: translateX(150%);
+    transition: transform 0.5s ease;
+    border-radius: 10px;
+}
+
+.backdrop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000093;
+}
+
+.offcanvas-bs{
+    background-image: linear-gradient(to bottom, var(--color-3),  var(--color-1));
+    color: white;
+}
+.offcanvas-active{
+    transform: none;
+}
+
+.btn-del-confirm{
+    background-color: #dc3545;
+    color: white;
+}
+.btn-del-confirm:hover{
+    background-color: #752028 ;
+    color: yellow;
+}
+.btn-del-cancel{
+    background-color: rgb(255, 255, 255);
+    color: orange;
+}
+
+.btn-del-cancel:hover{
+    background-color: antiquewhite;
+    color: red;
+}
+
+
+.fa-trash-o{
+
+    padding: 2px;
+    font-size: 1.5em;
+}
+
+.edit-title{
+    color: yellow;
+    text-align: center;
+}
+#emailHelp{
+    text-align: center;
+}
+.btn-edit-submit {
+    color: yellow;
+    font-weight: 800;
+    background-color: var(--icon-color);
+    width: 100%;
+}
+.btn-edit-submit:hover{
+    background-color: rgba(255, 255, 0, 0.808);
+    color: var(--icon-color);
+}
+
+
+.edit-user-top{
+    display: flex;
+    justify-content: sp;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.fa-times{
+    font-size: 1.5em;
+}
+
+
+.edit-user-main{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.crud-text{
+    width: 100%;
+    text-align: center;
+}
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btn-crud{
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+
+.my-fade{
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.msg-show{
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.msg-none{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.card-body{
+    max-height: 100dvh;
+    }
+
+.msg-required-container{
+    color: white;
+}
+
+.valid{
+    color: greenyellow
+}
+.invalid{
+    color: white;
+}
+
+.required-title{
+    color: yellow;
+}
+.btn-create-send:hover{
+    background-color: var(--icon-color);
+    border-color: var(--icon-color);
+
+
+}
