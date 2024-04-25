@@ -1,9 +1,11 @@
 import os
+from dotenv import load_dotenv
 
-SQLALCHEMY_DATABASE_URI = "sqlite:///clima-sqlite.db"
+load_dotenv()
+
+SQLALCHEMY_DATABASE_URI = os.getenv('SQLALCHEMY_DATABASE_URI')
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 CORS_HEADERS = 'Content-Type'
-SECRET_KEY = 'clima'
-JWT_SECRET_KEY = 'clima'
+SECRET_KEY = os.getenv('SECRET_KEY')
+JWT_SECRET_KEY = os.getenv('JWT_SECRET_KEY')
 
-#instalar corretamente o dotenv, e pegar as variaveis de ambiente (.env), para serem os valores das variaveis de config da APP
