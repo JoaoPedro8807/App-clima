@@ -3,7 +3,6 @@ dist/
 build/
 logs/
 *.log
-.env
 .vscode/
 .idea/
 .venv/
