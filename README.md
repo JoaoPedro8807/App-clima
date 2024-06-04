@@ -6,7 +6,7 @@
 </p>
 
 Um APP que busca através da [API  ClimaTempo](https://www.dropbox.com/developers/documentation/http/documentation) previsões para o clima de qualquer uma cidade ou região de todo o Brasil utilizando Flask.
-### Deploy da APP: https://clima-8ba6fda2cfe4.herokuapp.com/
+### Deploy da APP: http://34.67.129.26
 
 # 🔨 Funcionalidades do projeto:
 
