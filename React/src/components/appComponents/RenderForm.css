@@ -1,0 +1,23 @@
+.locale-form{
+    width: 80%;
+    height: auto;
+}
+.form-item{
+    width: 100%;
+}
+
+
+.btn-send{
+    background-color: #274360;
+    border-color: #274360;
+    width: 100%;
+}
+.btn-send:hover{
+    background-color: #142231;
+    border-color: #274360;
+
+}
+
+.label-form {
+    font-size: 1.5em;
+}

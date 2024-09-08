@@ -1,0 +1,124 @@
+.pagination-container{
+    padding: 20px;
+}
+.pagination-result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(to bottom, rgb(140, 156, 190), var(--icon-color));
+    border-radius: 10px;
+    min-height: 55dvh;
+    font-size: 1.1em;
+}
+.ul-result{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    color: white;
+
+}
+.pagination-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.pagination-ul{
+    background-color: var(--color-4);
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    border-radius: 10px;
+    font-size: 1.3em;
+}   
+.pagination-title{
+    margin-bottom: 20px;
+}
+.numbers:hover{
+    background-color: rgba(255, 166, 0, 0.39);
+    color: white;
+}
+
+.btn:hover{
+    color: orange;
+}
+.fa-arrow-left, .fa-arrow-right{
+    font-size: 1.3em;
+    color: orange;
+}
+.target{
+    color: white;
+    background-color: orange;
+}
+.data-api{
+    text-decoration: underline;
+    font-size: 1.3em;
+    font-weight: 800;
+    text-align: center;
+}
+
+.api-result{
+    font-size: 1.3em;
+    font-weight: 800;
+}
+.loading-container{
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination-h2{
+    text-align: center;
+    color: var(--icon-color);
+    font-weight: 800;
+    font-size: 1.2em;
+}
+.title-result{
+    color: white;
+    font-size: 1.3em;
+    font-weight: 800;
+}
+
+.noite{
+    background-image: url('../assets/imgs/bg-noite-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.tarde{
+    background-image: url('../assets/imgs/bg-tarde-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+
+.dia{
+    background-image: url('../assets/imgs/bg-dia-5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.dia .api-result{
+    color: var(--icon-color);
+}
+.dia .data-api{
+    color: white
+}
+
+.tarde .api-result{
+    color: var(--icon-color);
+}
+.tarde .data-api{
+    color: white
+}
+.noite .api-result{
+    color: yellow;
+}
+.noite .data-api{
+    color: white
+}
+

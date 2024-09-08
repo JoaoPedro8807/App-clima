@@ -1,0 +1,157 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menu-cotainer{
+    margin:0px;
+    display: grid;
+    grid-template-columns: var(--asside-width) 1fr;
+    grid-template-rows: var(--header-heigth) 1fr  1fr var(--footer-heigth);
+
+    grid-template-areas: 
+        "logo header"
+        "nav content"
+        "nav content"
+        "footer footer";
+
+    height: auto;
+    padding: 20px;
+}
+.carousel-menu {
+    width: 100%;
+    height: 70dvh;
+    background: linear-gradient(to bottom, var(--color-2), var(--icon-color));
+    color: white;
+}
+.menu-cotainer{
+    display: flex;
+}
+.carousel-item-content{
+    height: 70dvh;  
+    display: flex;  
+}
+.api-time{
+    width: 100%;
+    font-size: 2em;
+}
+.api-container-item{
+    width: 100%;
+}
+
+.api-time-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.link-api-externa{
+    text-decoration: none;
+    color: yellow;
+    font: italic small-caps bolder 2em Arial, Helvetica, sans-serif;
+}
+.menu-icon{
+    color: orange;
+    font-size: 1.5em;
+    padding: 20px;
+}
+
+
+.show-city-default, .timer-item, .timer-separador{
+    color: orange;
+}
+.timer-item, .timer-separador{
+    font-weight: 400;
+    font-size: 2em;
+}
+.app-text-container{
+    align-self: center;
+    background-color: white;
+    box-shadow: var(--shadow);
+    width: 96%;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+.accordion-item{
+    text-align: center;
+    padding: 20px;
+}
+.accordion-button p{
+    width: 100%;
+    text-align: center;
+    color: orange;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+
+.app-text-container h1{
+    text-align: center;
+}
+
+.app-text-container p{
+    text-indent: 30px;
+    
+}
+
+
+.logo{
+    grid-area: logo;
+}
+
+header.header{
+    grid-area: header;
+}
+
+nav.nav-area{
+    grid-area: nav;
+}
+
+footer.footer{
+    grid-area: footer;
+}
+
+main.content {
+    grid-area: content;
+}
+
+@media(max-width: 768px) {
+    .menu-cotainer {
+        grid-template-rows:
+            100px
+            var(--menu-top-height)
+            1fr
+            40px;
+        grid-template-columns: var(--aside-width) 1fr;
+        grid-template-areas:
+            "logo header"
+            "menu content"
+            "menu content"
+            "footer footer";
+    }
+    .carousel {
+        height: auto;
+    } 
+}
+
+@media(max-width: 576px) {
+    .menu-cotainer {
+        grid-template-rows:
+            var(--logo-height)
+            var(--menu-top-height)
+            1fr
+            var(--footer-height);
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "logo"
+            "menu"
+            "content"
+            "footer";
+    }
+    .carousel {
+        height: auto;
+    } 
+
+}

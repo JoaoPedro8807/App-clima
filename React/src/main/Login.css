@@ -1,0 +1,30 @@
+.card-login{
+    background: linear-gradient(to left, #64384393, #85586f5d);
+    border-radius: 20px;
+    height: auto;
+}
+
+.login > *{
+    background: linear-gradient(to bottom, var(--color-1), var(--color-1), var(--color-3), var(--color-2));
+    max-height: 100dvh;
+    overflow-y: hidden;
+
+}
+.render-error{
+    position: absolute;
+}
+
+.fa{
+    padding-right: 20px;
+}
+.alert{
+    display: flex;
+    justify-content: center;
+
+}
+
+.login-msg{
+    font-size: 1.3em;
+    color: orange;
+}
+

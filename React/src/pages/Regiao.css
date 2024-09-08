@@ -1,0 +1,48 @@
+.region-results{
+    height: auto;
+    width: 100%;
+    margin-bottom: 20vw;
+}
+
+.carousel-container{
+    height: auto;
+    overflow: hidden;
+
+}            
+.carousel-container-1{
+    height: auto;
+    overflow: hidden;
+
+}   
+.carousel{
+    width: 100%;
+    display: flex;
+    
+}
+
+.carousel-item.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.carousel-item{
+    transition: transform .3s;
+}
+
+.carousel-inner{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    
+}
+.img-carousel{
+    width: 30vw;
+    border-radius: 20px;
+}
+.data-result-regiao{
+    font-size: 1.4em;
+    font-weight: bold;
+    color: yellow;
+}

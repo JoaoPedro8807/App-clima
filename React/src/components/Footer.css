@@ -1,0 +1,28 @@
+footer.footer{
+    background: #274360;
+    color: white;
+    box-shadow:var(--shadow);    
+}
+.footer-container{
+    height: auto;
+}
+
+footer ul{
+    list-style: none;
+}
+footer li{
+    padding-top: 20px;
+}
+
+.footer-item{
+    height: auto;
+}
+.meu-texto{
+    text-align: center;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+}

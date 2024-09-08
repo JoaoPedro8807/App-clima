@@ -1,0 +1,18 @@
+.content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.default-result{
+    height: auto;
+    width: 50%;
+}
+.result-table{
+    width: 100%;
+}
+.btn-acao:hover .btn-default{
+    background-color: #bd992e98;
+    color: rgb(150, 149, 149);
+}

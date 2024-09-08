@@ -1,0 +1,51 @@
+    h2{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.table-city{
+    width: auto;
+}
+
+.city-results{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+}
+
+.date-result{
+    font-size: 1em;
+}
+
+.btn-send{
+    background-color: #274360;
+    border-color: #274360;
+    width: 100%;
+}
+.btn-send:hover{
+    background-color: #142231;
+    border-color: #274360;
+
+}
+
+.btn-acao:hover{
+    background-color: var(--icon-color);
+}
+
+.city-results{
+    width: 50%;
+}
+
+.temp-results{
+    width: 90%;
+    margin-top: 20px;
+    background-color: white;
+    min-height: 50dvh; 
+    background: linear-gradient(to bottom, var(--color-2), var(--color-2), var(--icon-color));
+    color: white;
+}
+

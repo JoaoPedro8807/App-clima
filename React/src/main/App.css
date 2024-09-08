@@ -1,0 +1,188 @@
+:root{
+    --color-1: #9491e2;
+    --color-2: #8752a3;
+    --color-3: #6274e7;
+    --color-4: #E5E1DA;
+
+    --icon-color: #274360;
+
+
+    --logo-heigth: 100px;
+    --header-heigth: auto;
+    --asside-width: 225px;
+    --footer-heigth: 300px;
+
+
+    --shadow: 
+        0 0px 15px 0 rgba(0, 0, 0, 0.384),
+        0 2px 10px 0 rgba(0, 0, 0, 0.486); 
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "Exo 2", sans-serif;
+} 
+
+.hide{    
+    display: none;
+    transition: opacity 0.9s, display 0.9s; 
+}
+.render-error{
+    width: 80%;
+}
+.container-msg-error{
+    width: 100%;
+    text-align: center;
+}
+
+.main{
+    background: linear-gradient(to bottom, var(--color-1), var(--color-1), var(--color-3), var(--color-2));
+    height: auto;
+    overflow: auto;
+    
+    margin:0px;
+    display: grid;
+    grid-template-columns: var(--asside-width) 1fr;
+    grid-template-rows: var(--header-heigth) 1fr var(--footer-heigth);
+
+    grid-template-areas: 
+        "logo header"
+        "nav content"
+        "footer footer";
+
+    height: auto;
+    
+}
+.logo{
+    grid-area: logo;
+}
+
+header.header{
+    grid-area: header;
+    overflow: hidden;
+}
+
+nav.nav-area{
+    grid-area: nav;
+}
+
+footer.footer{
+    grid-area: footer;
+}
+
+.content {  /*Colocar em todas as div que são interface da API  */
+    grid-area: content;
+    min-height: 100dvh
+}
+.data-result{
+    font-size: 1.4em;
+    font-weight: bold;
+    color: orange;
+}
+nav.nav-area{
+    height: 100%;
+}
+
+@media(max-width: 1500px){
+    .img-carousel{
+        width:auto;
+    }   
+    .pagination-result {
+        font-size: 1em;
+    }
+}
+
+
+@media(max-width: 1100px) {
+    .city-results{
+       width: auto;
+    }
+    .img-carousel{
+        width: 50%; 
+        margin-bottom: 50px;
+    }
+    .table-users{
+        width: auto;
+    }
+    table.table-users{
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+    }
+    div.table-responsive{
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+     }
+    .nav-link{
+        display: block;
+    }
+}
+
+
+
+@media(max-width: 768px) {
+ 
+    .main {
+        grid-template-rows:
+        auto
+        1fr
+        auto
+        auto;
+    grid-template-columns: 100%;
+    grid-template-areas:
+        "header"
+        "nav"
+        "content"
+        "footer";
+    }
+    
+    .logo{
+        display: none;
+    }
+    .content{
+        height: auto;
+    }
+    .none{
+        opacity: 0;
+        transition: transform 0.5s, display 1.5s;
+    }
+
+    .burguer{
+        display: block;
+    }
+    .img-carousel{
+        width: 80%;
+    }
+
+    ul.pagination-ul{
+        width: auto;
+    }
+
+    div.table-responsive{
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+     }
+
+    .inputs-container{
+        padding-top: 20px;
+        height: 100%;
+    }
+    .login > *{
+        max-height: 10dvh;
+        overflow-y: hidden;
+    
+    }
+    div.city-results{
+        width: auto;
+    }
+    .result-table-container{
+        width: 100%;
+
+    }
+    .nav-container{
+        display: none;
+    }
+
+}
