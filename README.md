@@ -6,7 +6,7 @@
 </p>
 
 Um APP que busca através da [API  ClimaTempo](https://www.dropbox.com/developers/documentation/http/documentation) previsões para o clima de qualquer uma cidade ou região de todo o Brasil utilizando Flask.
-### Deploy da APP:  clima-app-g2yb.onrender.com/ 
+### Deploy da APP:  https://clima-app-g2yb.onrender.com/
 
 # 🔨 Funcionalidades do projeto:
 
