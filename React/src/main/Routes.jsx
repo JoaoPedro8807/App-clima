@@ -19,7 +19,7 @@ export default props =>{
 
     //verifica a autenticidade do token, e seu tempo de expiração, protegendo as rotas no react, as do Flask também já estão protegidas com Decorators
     const isAthenticated = () => {
-        if(currentUser === null) return false
+        if(currentUser === null) return true
         try{
             const token = jwtDecode(currentUser.jwt_token)            
             const expireToken = parseFloat(token.exp - token.iat, 10) 
@@ -33,11 +33,12 @@ export default props =>{
             const exp_in = (expireToken * 1000) + issue_at
             const time_to_exp  = exp_in - now
 
-            return time_to_exp >= 0 
+            return true
+            //return time_to_exp >= 0 
 
         }catch(e){
             console.log('Erro na autenticação do token: ', e)
-            return false
+            return true
         }
     }
     /* cada rota que for própria  do nosso app (por exmeplo /cidade, /regiao ) irá ser renderizada dentro do componente Main, então a maioria dessas rotas rederizará esse

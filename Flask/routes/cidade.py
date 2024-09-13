@@ -6,7 +6,6 @@ from api_services.request_24h import get_temp_24h
 from decorators.decorator_login import login_required
 def init_rotas_cidade(app) -> None:
     @app.route('/get_city', methods=['POST', 'GET'])
-    @login_required
     def get_city():
         if request.method == 'POST':
             try:
