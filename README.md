@@ -5,7 +5,7 @@
 <img src="http://img.shields.io/static/v1?label=STATUS&message=Finalizado&color=GREEN&style=for-the-badge">
 </p>
 
-Um APP que busca através da [API  ClimaTempo](https://www.dropbox.com/developers/documentation/http/documentation) previsões para o clima de qualquer uma cidade ou região de todo o Brasil utilizando Flask.
+Um APP que busca previsões para o clima de qualquer uma cidade ou região de todo o Brasil utilizando Flask.
 ### Deploy do app no Azure:  https://app-clima.azurewebsites.net/
 
 # 🔨 Funcionalidades do projeto:
